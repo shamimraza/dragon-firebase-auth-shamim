@@ -10,7 +10,7 @@ import Register from "../pages/Login/LoginSite/Register";
 const router = createBrowserRouter([
     {
         path:'/',
-        element:<LoginLayout></LoginLayout>,
+        element: <LoginLayout></LoginLayout>,
         children:[
             {
                 path:'/',
